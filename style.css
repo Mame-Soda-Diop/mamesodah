@@ -1,0 +1,146 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  margin-left: 40px;
+  padding-left: 30px;
+  margin-right: 150px;
+}
+.entete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .icone {
+  margin: 0 10px; /* Espacement entre le logo et l'icône */
+}
+
+
+.monimge {
+  text-align: right;
+  margin-left: 20px;
+  padding-left: 20px;
+  margin-right: 400px;
+}
+.container {
+    text-align: center; /* Aligne le contenu au centre si nécessaire */
+  }
+  
+  .container img {
+    width: 40%; /* Ajuste la largeur de l'image selon vos besoins */
+  }
+  
+  .container h2 {
+    font-size: 45px; /* Taille du titre */
+    margin-top: 25px; /* Marge supérieure du titre */
+  }
+  
+  .container p {
+    font-size: 22px; /* Taille du texte */
+    margin-top: 10px; /* Marge supérieure du texte */
+  }
+  .delet h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20%;
+    
+  }
+  .images{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0%;
+    
+  }
+  .images img{width: 45%;
+    height: 80%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    right: 100%;
+transform: translate(_50);
+    
+  }
+  #ma-partie {
+    background-image : #f3b9c3 url('images/mapage\ 2.png'); /* Remplacez le chemin par l'emplacement de votre image */
+}
+
+  
+    .left {
+        text-align: left;
+        margin-left: 200px; /* Ajoute une marge à gauche de 20 pixels */
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: medium;
+      }
+      
+      .gradient-button {
+        background-image: linear-gradient(to right, #f3b9c3, #f3b9c3);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .images img{
+        width: 30px;
+        height: auto;
+        position: absolute;
+        left: 60%;
+        bottom: 0%;
+        right: 20%;
+      }
+      .container {
+        justify-content:space-around;
+      }
+      footer {
+        background-color: rgb(28, 26, 26);
+        padding:60px;
+        text-align: center;
+        font-size: 14px;
+        color: #fff;
+      }
+      header img:last-child {
+        width: 80px; /* Réduit la largeur de l'image à 30 pixels */
+        /* margin-left: 100px;  Ajoute une marge à droite de l'image pour l'aligner vers la gauche */
+        text-align: right;
+
+      }
+      .container {
+        justify-content: space-around;
+      }
+      #monBouton {
+        background-color: white;
+        color: black;
+        padding: 10px 20px;
+        border: 2px solid #f3b9c3 ;
+        cursor: pointer;
+        margin-top: 40px;
+        border-radius:20PX;
+      }
+      
+      #monBouton:hover {
+        background-color: #f3b9c3;
+      }
+      .monBouton {
+        margin-bottom: 20px;
+      
+      }
+      footer {
+        margin-top: 100px;
+    
+      }
+
+      
+    
+      
+      
+      
+      
+      
+      
+
+
